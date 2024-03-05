@@ -1,0 +1,58 @@
+.container{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+
+}
+.imagecontainer{
+    height: 600px;
+    flex: 1;
+    position: relative;
+}
+.img{
+ 
+    object-fit: contain;
+}
+/* styles.module.css */
+
+.formcontainer{
+    flex: 1;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap:  25px;
+
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+    background-color: var(--bgsoft);
+    padding: 20px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    color: var(--text);
+    border-radius: 7px;
+
+
+}
+
+
+.form button {
+    padding: 10px 20px;
+    background-color: #3673fd;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+    background-color: #285cb3;
+}
+

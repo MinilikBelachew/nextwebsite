@@ -1,0 +1,13 @@
+.container{
+    min-width: 100px;
+    padding: 10PX;
+    border-radius: 20PX;
+    font-weight:400 ;
+    text-align: center;
+}
+.active{
+    background-color: var(--text);
+    color: var(--bg);
+    transition-duration: 600ms;
+    
+}
